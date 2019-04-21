@@ -1,0 +1,7 @@
+[22-Nov-2017 15:30:49 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/vh3gck5gfici/public_html/engine/gonder.php on line 21
+[22-Nov-2017 15:36:56 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/vh3gck5gfici/public_html/engine/gonder.php on line 21
+[22-Nov-2017 15:38:03 UTC] PHP Notice:  Undefined variable: mesajlar in /home/vh3gck5gfici/public_html/engine/gonder.php on line 10
+[22-Nov-2017 16:00:19 UTC] PHP Notice:  Undefined variable: mesajlar in /home/vh3gck5gfici/public_html/engine/gonder.php on line 10
+[22-Nov-2017 16:02:10 UTC] PHP Notice:  Undefined variable: mesajlar in /home/vh3gck5gfici/public_html/engine/gonder.php on line 10
+[22-Nov-2017 16:03:05 UTC] PHP Notice:  Undefined variable: mesajlar in /home/vh3gck5gfici/public_html/engine/gonder.php on line 10
+[22-Nov-2017 17:41:30 UTC] PHP Notice:  Undefined variable: mesajlar in /home/vh3gck5gfici/public_html/engine/gonder.php on line 10

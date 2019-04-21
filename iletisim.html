@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>E-Takip | Öğrenci Takip Sistemi</title>
+	<link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/iletisim.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<script>
+		function openNav() {
+			document.getElementById("mysidenav").style.width = "50%";
+			document.body.style.marginLeft = "50%";
+		}
+
+		function closeNav() {
+			document.getElementById("mysidenav").style.width = "0";
+			document.body.style.marginLeft = "0";
+		}
+	</script>
+</head>
+  <body>
+    <div id="mysidenav" class="sidenav">
+  	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  		<a href="index.html">Anasayfa</a>
+  		<a href="urunlerimiz.html">Ürünlerimiz</a>
+  		<a class="aktif" href="iletisim.html">İletişim</a>
+  	</div>
+    <div class="box1">
+      <div class="box2">
+        <div class="headerbox">
+          <div class="logobox">
+          </div>
+          <div class="mobilmenutext"><a href="javascript:void(0)" onclick="openNav()">MENU</a></div>
+          <div class="firmayazibox">
+            <div class="firmayazibox text1">
+              E-Takip
+            </div>
+            <div class="firmayazibox text2">
+              Öğrenci Takip Sistemi
+            </div>
+          </div>
+          <div class="menubox">
+            <a href="index.html">Anasayfa</a>
+  					<a href="urunlerimiz.html">Ürünlerimiz</a>
+  					<a class="aktif" href="iletisim.html">İletişim</a>
+          </div>
+        </div>
+        <div class="iletisimbox">
+          <div class="hakkimizdabox">
+            <div id="image">
+            </div>
+            <div id="text">
+              Hakkımızda en son bilgiye bu sayfadan ulaşacaksınız.
+              Şirketimiz sürekli gelişiyor ve büyüyor.
+              Geniş servislerimiz mevcuttur.
+              Amacımız herkese yardım eden en iyi çözümü sunmaktır.
+              Eğer bizimle iletişime geçmek isterseniz,
+              lütfen web sitemizdeki iletişim formunu doldurunuz.
+              İyi günler dileriz!
+            </div>
+          </div>
+          <div class="bizeyazinbox">
+            <div class="adresbox">
+              <div id="text">
+                GSM: +905066604239
+                <br>
+                iletisim@e-ogrencitakip.com
+              </div>
+            </div>
+            <div class="formbox">
+              <form method="post" action="engine/gonder.php" class="formbox2">
+                <input type="text" id="inputs" name="adsoyad" placeholder="Adınız Soyadınız" required>
+                <input type="text" id="inputs" name="gsm" placeholder="GSM" required>
+                <input type="text" id="inputs" name="mail" placeholder="E-Posta Adresiniz" required >
+                <textarea placeholder="Mesajınız..." id="inputsmes" name="mesaj" required></textarea>
+                <input type="submit" value="Gönder" id="inputssub">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footerbox">
+        <div class="footerbox image"></div>
+        <div class="footerbox box">
+          <div class="footerbox text1">
+            Sizin ve çocuklarımız için!
+          </div>
+          <div class="footerbox text2">
+            E-Takip
+            <br>
+            2017
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
